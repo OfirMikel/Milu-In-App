@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Milu-In</string>
+    <string name="col1">משקל</string>
+    <string name="col2">טור 2</string>
+    <string name="col3">טור 3</string>
+    <string name="col4">טור 4</string>
+    <string name="col5">טור 5</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="dialogHeadline"><u>התייצבויות</u></string>
+    <string name="dialogNames"><u>שמות המתייצבים:</u></string>
+    <string name="headLineForFormattedFile"><u>הנדון: הוראת זימון</u></string>
+
+    <string name="Test">1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12</string>
+    <string name="needToBeFilled">NeedToBeFilled</string>
+    <string name="amountOfDays">ימ\"מ</string>
+    <string name="horaz">הור\"ז</string>
+
+
+</resources>

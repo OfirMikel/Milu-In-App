@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenback">
+
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="210dp"
+        android:layout_height="217dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logomiluin"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        android:contentDescription="image"
+        tools:ignore="HardcodedText" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berlinsansfbdemibold"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/perpetuabold"
+        android:text="The Drop Shipment Unit"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/Welcome" />
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/perpetuabold"
+        android:text="Developed by Ofir Mikel "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/image2" />
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/Swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:button_background="@drawable/round_corner_white"
+        app:button_bottom_padding="20sp"
+        app:button_image_disabled="@drawable/ic_baseline_arrow_circle_right_24"
+        app:button_image_enabled="@drawable/ic_baseline_lock_open_24"
+        app:button_left_padding="20sp"
+        app:button_right_padding="20sp"
+        app:button_top_padding="20sp"
+
+        app:inner_text="Swipe to Enter"
+        app:inner_text_background="@drawable/round_corner_white1"
+        app:inner_text_bottom_padding="18dp"
+        app:inner_text_color="@color/grey"
+        app:inner_text_size="16sp"
+        app:inner_text_top_padding="18sp"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/welcome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/image2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:background="@drawable/round_corner52"
+    android:clipToPadding="false"
+    android:elevation="10sp"
+    android:padding="20sp"
+    tools:ignore="UnusedAttribute,HardcodedText">
+
+    <TextView
+        android:id="@+id/dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="00/00/0000-00/00/0000"
+        android:textAlignment="center"
+        android:textColor="#25E125"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintRight_toLeftOf="@+id/f2"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="תאריך האירוע: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/EventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="30sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:padding="0sp"
+        android:text="Event Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/f6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מיקום האירוע: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:layout_constraintVertical_bias="0.555"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/placeOf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מקום לדוגמא"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#512DA8"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/f6"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="30"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/f"
+        app:layout_constraintEnd_toStartOf="@+id/f"
+        app:layout_constraintTop_toTopOf="@+id/f"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/amount_of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="30"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/f5"
+        app:layout_constraintTop_toTopOf="@+id/guideline19"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="כמות יממ של האירוע הנוכחי: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <TextView
+        android:id="@+id/f5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="כמות משתתפים באירוע: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="5dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.513" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.716" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

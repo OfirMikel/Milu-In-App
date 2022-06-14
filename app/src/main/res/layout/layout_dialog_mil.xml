@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rootLayout"
+    android:layout_margin="20dp"
+    android:layoutDirection="rtl"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="15sp"
+        android:id="@+id/button_mil_add"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginVertical="1dp"
+        android:background="@android:color/transparent"
+        android:text="+ יצירת אירוע"
+        android:textColor="@color/black" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="שם מלא"
+        android:fontFamily="@font/varelaroundrgular"
+        android:textColor="@color/HeadLine"
+        android:completionThreshold="1"
+        />
+
+    <EditText
+        android:id="@+id/edit_Bdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:fontFamily="@font/varelaroundrgular"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-2dp"
+        android:focusable="false"
+        android:hint="תאריך התחלה"
+        android:textColor="@color/HeadLine"
+        android:textDirection="rtl"
+        />
+
+    <EditText
+        android:id="@+id/edit_Edate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_Bdate"
+        android:fontFamily="@font/varelaroundrgular"
+        android:focusable="false"
+        android:hint="תאריך סיום"
+        android:inputType="number"
+        android:textColor="@color/HeadLine"
+        android:textDirection="rtl"
+         />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_who"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_Edate"
+        android:hint="שם המזמן"
+        android:completionThreshold="1"
+        android:textColor="@color/HeadLine"
+        android:fontFamily="@font/varelaroundrgular"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_who"
+        android:hint="מקום התייצבות"
+        android:textColor="@color/HeadLine"
+        android:fontFamily="@font/varelaroundrgular"
+        />
+
+
+</LinearLayout>

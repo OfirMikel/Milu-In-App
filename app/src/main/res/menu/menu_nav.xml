@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mil"
+        android:icon="@drawable/selector_mil"
+        android:title="מילואים" />
+
+    <item
+        android:id="@+id/nav_3"
+        android:icon="@drawable/selector_3"
+        android:title="ביקורת סופית" />
+
+    <item
+        android:id="@+id/nav_workshop"
+        android:icon="@drawable/selector_5"
+        android:title="סדנת מנתקים" />
+</menu>

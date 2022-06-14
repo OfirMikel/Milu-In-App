@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/admin_filled.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/arrow_down_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/arrow_up_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/border.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/border2.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/border3.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/border4.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/button_circle.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/dialog.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/gradiant.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/home_3_filled.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_add_ic_call_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_admin_panel_settings_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_anchor_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.3205" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_phone_in_talk_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_baseline_verified_user_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_icon.xml" value="0.3205" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_more_vert.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_outline_info_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_select_all.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_sort.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_supervisor_account.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_try2.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/ic_untitled_1.xml" value="0.15138888888888888" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner10.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner11.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner2.xml" value="0.2703125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner3.xml" value="0.228125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner4.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner5.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner51.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner52.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner53.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner54.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner55.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner56.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner6.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner61.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner7.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner8.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner9.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_cornerList.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_arrived.xml" value="0.3145" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_arrived_marked.xml" value="0.3145" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_grey.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_red.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_today.xml" value="0.3205" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_white.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/round_corner_white1.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/selector_3.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/selector_5.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/selector_mi;.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/selector_mil.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/send_24.xml" value="0.293" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/drawable/whatsapp.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/font/font_family.xml" value="0.396875" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout-land/activity_main.xml" value="0.534375" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout-v21/activity_settings.xml" value="0.18" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout-v21/dialog_sms.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout-v21/header_dialog.xml" value="0.5" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_fragment3_t.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_main2.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_mil.xml" value="0.22" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_miluin.xml" value="0.16" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_settings.xml" value="0.2" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_summons_formated_as_file.xml" value="0.18" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_table.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_table_fragment.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/activity_work_shop.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/dialog.xml" value="0.33" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/dialog_info.xml" value="0.25" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/dialog_sms.xml" value="0.16" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/dropdown.xml" value="0.2980072463768116" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/dropdown_item.xml" value="0.5" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/fragment_dashboard.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/fragment_home.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/fragment_mil.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/fragment_notifications.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/fragment_workshop.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/header.xml" value="0.67" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/header_dialog.xml" value="0.7104930467762326" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/layout_dialog_mil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/layout_row_data.xml" value="0.5" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/list_row.xml" value="0.45019305019305017" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/list_row_TODAY.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/list_rowtoday.xml" value="0.25" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/miluin.xml" value="0.33" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/layout/participants.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/but_icon.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/menu_data.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/menu_delete.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/menu_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/menu/menu_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/OfirMikel/AndroidStudioProjects/Mardichim20/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

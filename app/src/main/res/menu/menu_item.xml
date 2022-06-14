@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/GetInfo"
+        android:title="Send Sms or Get information"
+        android:icon="@drawable/send_24"
+        app:showAsAction="always"/>
+
+
+    <item app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/AddPhoneNum"
+                android:title="מעבר לאנשי הקשר        "
+                android:icon="@drawable/ic_baseline_add_ic_call_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/AS"
+                android:title="הצג את הצווים הפעילים"
+                android:icon="@drawable/ic_baseline_verified_user_24"
+                android:textDirection="rtl"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/SHOW_ALL"
+                android:title="הצג את כל הצווים          "
+                android:icon="@drawable/ic_select_all"
+                android:textDirection="rtl"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/SOC"
+                android:title="הצג פורמט בסיסי           "
+                android:icon="@drawable/ic_supervisor_account"
+                android:textDirection="rtl"
+                app:showAsAction="never"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>

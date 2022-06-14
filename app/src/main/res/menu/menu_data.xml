@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search2"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"/>
+
+
+    <item app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/ReadExcelFile"
+                android:title="סנכרן את מאגר המידע"
+                android:icon="@drawable/ic_baseline_insert_drive_file_24"
+                app:showAsAction="always"/>
+        </menu>
+
+    </item>
+</menu>

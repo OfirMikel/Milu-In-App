@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="435sp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:background="@drawable/round_corner52"
+    android:clipToPadding="false"
+    android:elevation="10sp"
+    android:paddingStart="20sp"
+    android:paddingEnd="20sp"
+    android:paddingBottom="25sp"
+    tools:ignore="HardcodedText,UnusedAttribute">
+
+
+    <TextView
+        android:id="@+id/dateB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="00/00/0000-00/00/0000"
+        android:textAlignment="center"
+        android:textColor="#25E125"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintRight_toLeftOf="@+id/f2"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <TextView
+        android:id="@+id/f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="תאריך הצו: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <TextView
+        android:id="@+id/FullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="25sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="שם ארוך מממממש"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/f4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="שם המפקד המזמן: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/f6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מיקום תעסוקה: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:layout_constraintVertical_bias="0.555" />
+
+
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner2"
+        android:drawablePadding="1sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:padding="5sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_phone_in_talk_24"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.481"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/round_corner2"
+        android:fontFamily="@font/varelaroundrgular"
+        android:padding="5sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textSize="12sp"
+        app:drawableLeftCompat="@drawable/whatsapp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintStart_toEndOf="@+id/call"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.481"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Whoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="שם לדוגמא"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/f4"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/placeOf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מקום לדוגמא"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#512DA8"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/f6"
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/placeOf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1sp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="050-000-0000"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/f7"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/placeOf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="30"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/f"
+        app:layout_constraintEnd_toStartOf="@+id/f"
+        app:layout_constraintTop_toTopOf="@+id/f" />
+
+
+    <TextView
+        android:id="@+id/placeOf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="1234567"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/f3"
+        app:layout_constraintEnd_toStartOf="@+id/f3"
+        app:layout_constraintTop_toTopOf="@+id/f3" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="ID"
+        android:textAlignment="center"
+        android:textColor="@color/Alot"
+        android:textDirection="rtl"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/f7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מספר טלפון: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline16" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="כמות יממ של הצו הנוכחי: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <TextView
+        android:id="@+id/f55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מצב התייצבות: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline17" />
+
+    <TextView
+        android:id="@+id/f3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="מספר אישי: "
+        android:textAlignment="center"
+        android:textColor="@color/whiteop"
+        android:textDirection="rtl"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+
+    <TextView
+        android:id="@+id/arrived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/round_corner_arrived_marked"
+        android:fontFamily="@font/varelaroundrgular"
+        android:padding="7sp"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:text="התייצב"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/didnt_arrived"
+        app:layout_constraintTop_toTopOf="@+id/guideline17"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/didnt_arrived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_arrived_marked"
+        android:fontFamily="@font/varelaroundrgular"
+        android:padding="7sp"
+        android:text="לא התייצב"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/f55"
+        app:layout_constraintTop_toTopOf="@+id/guideline17"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="335dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.44" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.77" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="408dp" />
+
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/varelaroundrgular"
+        android:text="--------COMMENTS--------"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.722" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
