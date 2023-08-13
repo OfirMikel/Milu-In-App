@@ -20,25 +20,6 @@
     <li><strong>SMS Manager:</strong> The app interacts with the SMS manager to send notifications and read SMS inbox responses.</li>
   </ul>
 
-  <h2>Installation and Usage</h2>
-  <ol>
-    <li>Clone the repository to your local machine.</li>
-    <li>Open the project in Android Studio.</li>
-    <li>Build and run the app on an Android emulator or physical device.</li>
-    <li>Use the app's interface to manage soldiers, send SMS notifications, and track arrivals.</li>
-  </ol>
 
-  <h2>Future Enhancements</h2>
-  <p>As the Soldier Management and Notification App evolves, the following enhancements are planned:</p>
-  <ul>
-    <li><strong>Enhanced User Interface:</strong> Improving the app's user interface to provide a more intuitive and seamless experience for event organizers.</li>
-    <li><strong>Automated Arrival Tracking:</strong> Implementing automated arrival tracking through a more integrated solution, reducing manual efforts.</li>
-    <li><strong>Enhanced SMS Handling:</strong> Improving the SMS handling process, ensuring reliable notifications and accurate arrival tracking.</li>
-    <li><strong>Cloud Integration:</strong> Adding cloud integration to enable data synchronization and access across multiple devices.</li>
-    <li><strong>Event Analytics:</strong> Incorporating analytics features to provide insights into event attendance and trends.</li>
-  </ul>
 
-  <h2>Contact Information</h2>
-  <p>If you have any questions, suggestions, or feedback, please feel free to reach out to us at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
   
-  <p>Thank you for using the Soldier Management and Notification App to streamline your event management and soldier communication!</p>
