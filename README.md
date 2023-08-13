@@ -1,5 +1,5 @@
   <h1>Soldier Management and Notification App</h1>
-  <img src="https://raw.githubusercontent.com/OfirMikel/Portfolio/master/miluin/Layer%201.png" alt="App Logo">
+  <img src="https://raw.githubusercontent.com/OfirMikel/Portfolio/master/miluin/Layer%201.png" height="500" alt="App Logo">
   
   <h2>Description</h2>
   <p>Welcome to the Soldier Management and Notification App! This application is designed to assist with sorting, listing, and tracking soldiers' arrivals for events. The app offers features such as sending SMS notifications to soldiers on the day of their arrival and tracking their responses using the SMS inbox. The app utilizes two SQLite databases, one for storing soldier details and another for managing the list of invited soldiers.</p>
