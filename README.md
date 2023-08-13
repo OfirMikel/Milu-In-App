@@ -1,6 +1,6 @@
 <h1>Soldier Management and Notification App</h1>
 <img align="left" src="https://raw.githubusercontent.com/OfirMikel/Portfolio/master/miluin/Layer%201.png" width="400" alt="App Logo">
-<img align="right" src="https://raw.githubusercontent.com/OfirMikel/Portfolio/master/miluin/Layer%202.png" width="400" alt="App Logo">
+<img align="center" src="https://raw.githubusercontent.com/OfirMikel/Portfolio/master/miluin/Layer%202.png" width="400" alt="App Logo">
 
 <br>
 <h2>Description</h2>
